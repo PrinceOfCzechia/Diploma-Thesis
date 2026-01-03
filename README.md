@@ -54,3 +54,10 @@ Here, we fit the GHK-style in the following setting:
 
 This is the true use case of the GHK-style implementation.
 The results are discussed in section 4.5.
+
+#### ghk_integration.R
+We made a toy implementation of the GHK algorithm as means of Monte Carlo
+integration, too.
+It can be found in this file, and the result is compared to *mvtnorm* library
+result of the same integral.
+The code is discussed in Appendix C.1.
